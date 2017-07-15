@@ -1,0 +1,86 @@
+body, p, h1 {
+    min-width: 500px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    /*Для создания контейнера и размешения его по чентру необходимо*/
+    /*1 задать ширину*/
+    /*2 задать margin: 0 auto;*/
+    width: 1070px;
+    margin: 0 auto;
+
+    /*Минимальвая высота*/
+    /*min-height: 50px; */
+    
+    
+}
+
+
+.header, .footer {
+    background-color: rgb(231,230,230);
+    padding: 10px;
+}
+
+.header-box, .footer-box {
+    background-color: white;
+    border-radius: 10px;
+
+    /*box-shadow: 0 0 5px 2px;*/
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+
+.logo {
+    float: left;
+    margin-left: 15px;
+}
+
+
+.header-text h1 {
+    margin-left: 100px;
+    padding: 15px 0px;
+
+    font-family: "PT Sans", "Arial", serif; 
+    font-size: 40px;
+    /*text-align: center;*/
+    /*vertical-align: middle;  */
+}
+
+
+
+.features {
+    /*Высота (распорка)*/
+    min-height: 750px;
+    /*Подключаем фоновое изображение*/
+    background-image: url("img/medleyphoto.jpg");
+    /*Фотоное изображение не повторять*/
+    background-repeat: no-repeat;
+    /*Вписать в границы страницы*/
+    background-size: cover;
+
+    /*background-position: 50% 50%;*/
+}
+
+
+.footer {
+    /*background-color: red;*/
+    /*padding: 10px;*/
+}
+
+.footer-text h1 {
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+
+}
+
