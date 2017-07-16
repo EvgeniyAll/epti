@@ -1,0 +1,25 @@
+body {
+ margin: 0 auto; /*Âíåøíèé îòñòòóï*/
+ padding: 0; /*Âíóòðåííèé îòñòóï*/
+ width: 940px; /*øèðèíà êîíòåíòà*/
+}
+
+p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    background: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+h1 {
+ text-align: center;
+}
+
+div {
+ text-align: center;
+ 
+ color: #618ad2;
+ text-shadow: 2px 2px 0 #cccccc;
+}
